@@ -1,7 +1,7 @@
 <?php 
 
    
-    echo $_GET['username'].' - '.$_GET['email'];
+    echo $_POST['username'].' - '.$_POST['email'];
 
 	
 	
