@@ -116,7 +116,7 @@ $(function(){
 	
 	$('form input[type=button]').on('click',function(){
 		 $.ajax({
-			  type:"POST",
+			  type:"GET",
 			  url:"test.php",
               data:$.param({
 			     username:$('form input[name=username]').val(),
